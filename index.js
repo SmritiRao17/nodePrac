@@ -8,11 +8,12 @@ courses=[
     {id:1, name: 'course1'},
     {id:2, name: 'course2'},
     {id:3, name: 'course3'},
-    {id:4, name: 'course4'}
+    {id:4, name: 'course4'},
+    {id:17, name: 'course17'},
 ]
 
 app.get('/',(req,res)=>{
-    res.send('Hello World')
+    res.send('Hello World Welcome')
 })
 
 app.get('/api/courses',(req,res)=>{
